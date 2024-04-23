@@ -581,18 +581,35 @@ section {
 Fade Efect
 ------------------*/
 .fade-div {
-  background-color: #E6E6E6; /* Initial color */
-  animation: fade 4s ease-in-out infinite;
+  position: relative;
+  background-color: #E6E6E6; /* Color inicial */
+  animation: fade 7s ease-in-out infinite;
+}
+
+.fade-div::before,
+.fade-div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Ajustamos la altura para que las líneas sean más visibles */
+  background-color: white; /* Cambiar el color a blanco */
+}
+
+.fade-div::before {
+  transform: rotate(45deg);
+}
+
+.fade-div::after {
+  transform: rotate(-30deg);
 }
 
 @keyframes fade {
-  0% {
-    background-color: #4D8391;
+  0%, 100% {
+    background-color: #A7C7D0; /* Color del fondo */
   }
   50% {
-    background-color: #E6E6E6;
-  }
-  100% {
-    background-color: #4D8391;
+    background-color: #E6E6E6; /* Color del fondo */
   }
 }
