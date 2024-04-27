@@ -97,7 +97,7 @@ const locales = {
       language:"Select Language:"
     },
     about:{
-      title: "About",
+      title: "About me",
       description:"Software developer, with experience in languages such as C# and Java for back-end development, and in front-end, with technologies like React, Angular, and JavaScript; Additionally, proficiency in relational and non-relational databases."
     },
     skills:{
@@ -198,7 +198,7 @@ const locales = {
       language: "Seleccionar Idioma:"
     },
     about: {
-      title: "Acerca de",
+      title: "Sobre mí",
       description: "Desarrollador de software, con experiencia en lenguajes como C# y Java para desarrollo backend, y en frontend, con tecnologías como React, Angular y JavaScript; Además, competencia en bases de datos relacionales y no relacionales."
     },
     skills: {
