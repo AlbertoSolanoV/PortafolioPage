@@ -84,7 +84,7 @@ const locales = {
     header: {
       nav_options: {
         home: "Home",
-        about: "About",
+        about: "About me",
         skills: "Skills",
         resume:"Resume",
         portfolio: "Portfolio",
@@ -185,7 +185,7 @@ const locales = {
     header: {
       nav_options: {
         home: "Inicio",
-        about: "Acerca de",
+        about: "Sobre mí",
         skills: "Habilidades",
         resume: "Currículum",
         portfolio: "Portafolio",
